@@ -95,8 +95,7 @@
   @keyframes blink { 50% { opacity: 0; } }
   h1 { font-size: clamp(40px, 7vw, 68px); line-height: 1.05; letter-spacing: -0.03em; font-weight: 700; }
   .grad { background: linear-gradient(90deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
-  .lead { margin-top: 24px; max-width: 540px; color: var(--muted); font-size: 17px; }
-  .lead b { color: var(--text); font-weight: 500; }
+  .lead { margin-top: 24px; max-width: 600px; color: var(--muted); font-size: 17px; line-height: 1.8; text-wrap: pretty; }
   .links { margin-top: 36px; display: flex; flex-wrap: wrap; gap: 12px; }
   .btn {
     font-family: var(--mono); font-size: 13px;
@@ -202,7 +201,7 @@
     <div>
       <div class="prompt">$ whoami<span class="caret"></span></div>
       <h1>Hi, I'm <span class="grad">Muwei</span>.<br>Breaking AI dev tools.</h1>
-      <p class="lead"><b>10+ 年</b>软件工程师，现在 all in AI。日常用 Claude Code、Codex 写代码，顺手做些小工具：浏览器扩展、Raycast 插件、macOS 脚本。实测分享，不吹不卖课，<b>Building in public</b>。</p>
+      <p class="lead">10+ 年软件工程师，现在 all in AI。<br>用 Claude Code 和 Codex 做浏览器扩展、Raycast 插件与 macOS 小工具。</p>
       <div class="links">
         <a class="btn" href="https://x.com/MuweiCallisto" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
